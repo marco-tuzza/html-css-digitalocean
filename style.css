@@ -1,22 +1,20 @@
-footer  {
+/* footer-top */
+#header-top {
+    padding: 10px 20px 5px 20px;
     font-size: 12px;
     font-weight: bold;
 }
 
-footer a {
+#header-top a {
     color: #5b6987;
     padding-left: 13px;
 }
-/* footer-top */
-#footer-top {
-    padding: 10px 20px 5px 20px;
-}
 
-.container-footer-top {
+.container-header-top {
     border-bottom: 1px solid #F3F5F9;
 }
 
-.footer-top-left span {
+.header-top-left span {
     color: #031b4e;
     background-color: #00d7d2;
     padding: 4px 8px;
@@ -24,13 +22,68 @@ footer a {
     font-size: 10px;
 }
 
-.footer-top-left a:hover {
+.header-top-left a:hover {
     color: #0069ff;
     text-decoration: none;
 }
 
-.footer-top-right a:hover {
+.header-top-right a:hover {
     text-decoration: none;
     color: #5b6987
 }
 /* /footer-top */
+
+.logo img {
+    width: 100%;
+    object-fit: contain;
+    padding: 20px 20px;
+}
+
+.nav {
+    margin-top: 27px
+}
+
+.nav a {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(3,27,78,.7);
+    margin-right: 25px;
+}
+
+.nav a:hover {
+    color: #0069ff;
+    text-decoration: none;
+}
+
+.sign-up {
+    margin-top: 27px;
+}
+
+.sign-up a {
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid #0069ff;
+    border-radius: 5px;
+    color: #0069ff;
+    padding: 13px 19px 11px;
+    margin-right: 21px;
+}
+
+.sign-up a:hover {
+    text-decoration: none;
+    background-color: #0069ff;
+    color: white;
+    transition: 0.5s;
+
+}
+
+.nav-dropdown::after {
+    content: '∨';
+    color: #5b6987;
+    padding-left: 5px;
+}
+
+.jumbotron {
+    height: 100vh;
+    background-color: blue;
+}
