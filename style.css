@@ -1,3 +1,25 @@
+.black {
+    color: #031b4e
+}
+
+.grey {
+    color: rgba(3,27,78,.7)
+}
+
+.blue {
+    color: #0069ff
+}
+
+.title {
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    font-size: 20px
+}
+
 /* header */
 #header-top {
     padding: 10px 20px 5px 20px;
@@ -84,9 +106,10 @@
 /* /header */
 /* jumbotron */
 .jumbotron {
-    height: 100vh;
+    height: 100%;
     background-image: url(img/bg-jumbotron.jpg);
     background-size: cover;
+    margin-bottom: 0px;
 }
 
 .navbar-brand {
@@ -248,3 +271,94 @@
 .terms p {
     font-size: 13px;
 }
+
+/* brands-section */
+.brands-section {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    background-color: #f3f5f9
+}
+
+.brand-container {
+    margin-bottom: 16px;
+}
+
+.brand img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.brands-section h2 {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(147, 158, 180);
+    margin-bottom: 16px;
+}
+
+.brands-section a {
+    color: #0069ff;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* /brands-section */
+/* features */
+.feature-section {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.main-features {
+    margin-top: 80px;
+}
+
+.visual-features {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.menu-features ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.menu-features li {
+    padding: 17px;
+    font-size: 18px;
+    border-left: 2px solid #e5e8ed;
+    padding: 17px 10px 17px 30px;
+}
+
+#focus {
+    border-left: 2px solid #0069ff;
+}
+
+.menu-features a:hover {
+    color: #031b4e;
+    text-decoration: none;
+}
+
+.main-features .grey {
+    font-size: 16px;
+}
+
+.main-features .black {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.feature {
+    padding: 25px 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .feature {
+        padding: 0px;
+        margin-top: 50px;
+    }
+}
+
+.icon-features {
+    color: #0069ff;
+    font-size: 35px;
+}
+/* /features */
