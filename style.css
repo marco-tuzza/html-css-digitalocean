@@ -362,3 +362,53 @@
     font-size: 35px;
 }
 /* /features */
+/* gallery */
+.gallery {
+    background-color: #f3f5f9;
+    position:relative;
+    padding: 60px 0px;
+}
+
+.gallery-top {
+    margin-bottom: 65px;
+}
+
+.gallery-slide img {
+    width: 100%;
+}
+
+.row > div {
+    display: inline;
+}
+
+.slide-right {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    font-size: 30px;
+}
+
+.slide-left {
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    left: 0px
+}
+
+.slide-left i {
+    color: rgb(171, 180, 198);
+}
+
+.slide-right a:hover {
+    color: #0069ff
+}
+
+.gallery-bottom p {
+    margin-top: 32px;
+    font-size: 16px;
+}
+
+.gallery-list:hover {
+    background-color: rgba(0,105,255,.2);
+    border-radius: 50%
+}
