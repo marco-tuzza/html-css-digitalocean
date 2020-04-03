@@ -307,6 +307,11 @@
     font-size: 16px;
     font-weight: bold;
 }
+
+.brands-section a:hover {
+    color: #005fe6;
+    text-decoration: none;
+}
 /* /brands-section */
 /* features */
 .feature-section {
@@ -415,7 +420,11 @@
     font-size: 16px;
 }
 
-.gallery-list:hover {
+.gallery-bottom a {
+    font-size: 10px;
+}
+
+.far.fa-circle:hover {
     background-color: rgba(0,105,255,.2);
     border-radius: 50%
 }
@@ -432,7 +441,7 @@
 
 .box-info i {
     font-size: 40px;
-    color: #0069ff
+    color: #005fe6
 }
 
 .box-info h3 {
@@ -444,10 +453,22 @@
 .box-info p {
     font-size: 16px;
 }
+
+.box-info a {
+    font-size: 16px;
+    font-weight:bold;
+}
+
+.box-info a:hover {
+    color: #005fe6;
+    text-decoration: none
+}
 /* /info */
 /* world-table */
 .world-table {
-    background: #031b4e
+    background-color: #031b4e;
+    background-image: url(https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg);
+    background-size: cover;
 }
 
 .world-table .row {
@@ -520,10 +541,70 @@
     background-color: #f3f5f9;
 }
 
+.feedback-top {
+    margin-top: 60px;
+}
+
+.feedback-title {
+    margin-bottom: 20px;
+}
+
+.feedback-subtitle {
+    margin-bottom: 20px;
+}
+
+.teams-link {
+    color: #0069ff;
+    text-decoration: underline;
+}
+
+.teams-link:hover {
+    color: #005fe6;
+}
+
 .feedback {
     background-color: white;
+    padding-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 .feedback img {
     max-width: 25%;
+    padding: 30px 0px;
+}
+
+.feedback-comment {
+    font-size: 24px;
+    font-weight: lighter;
+    color: rgba(3,27,78,.7)
+}
+
+.feedback-name {
+    font-size: 16px;
+}
+
+.feedback-position {
+    font-size: 12px;
+}
+
+.feedback-link {
+    margin-top: 20px;
+}
+
+.read {
+    font-size: 17px;
+    color: #0069ff;
+}
+
+.read:hover {
+    color: #005fe6;
+    text-decoration: none;
+}
+
+.feedback-bottom {
+    margin-bottom: 60px;
+}
+
+.feedback-bottom a {
+    font-size: 10px;
 }
