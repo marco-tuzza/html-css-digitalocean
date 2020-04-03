@@ -444,3 +444,86 @@
 .box-info p {
     font-size: 16px;
 }
+/* /info */
+/* world-table */
+.world-table {
+    background: #031b4e
+}
+
+.world-table .row {
+    border-bottom: 1px solid rgb(53, 73, 113);
+    padding-top: 11px;
+}
+
+.world-table .last-row {
+    border-bottom: none;
+}
+
+.speedtest {
+    padding-top: 50px;
+}
+
+.table-code p {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.table-city p {
+    color: rgb(154, 164, 184);
+    font-size: 12px;
+}
+
+.table-test a {
+    font-weight: bold;
+    color: #00d7d2;
+    font-size: 12px;
+}
+
+.table-test a:hover {
+    color: #0069ff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .world-table .row {
+        padding: 20px 0px;
+    }
+
+    .table-test a {
+        font-size: 10px;
+    }
+
+    .table-code p {
+        font-size: 10px;
+    }
+
+    .table-city p {
+        font-size: 10px;
+    }
+}
+
+.table-title h2 {
+    padding-top: 60px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 40px;
+    font-size: 34px;
+}
+
+.complete-table {
+    margin-bottom: 60px;
+}
+/* /world-table */
+/* feedback */
+.feedback-gallery {
+    background-color: #f3f5f9;
+}
+
+.feedback {
+    background-color: white;
+}
+
+.feedback img {
+    max-width: 25%;
+}
