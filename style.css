@@ -608,3 +608,41 @@
 .feedback-bottom a {
     font-size: 10px;
 }
+/* /feedback */
+/* pre-footer */
+.pre-footer {
+    background-image: url(img/bg-jumbotron.jpg);
+    background-size: auto;
+}
+
+.pre-footer h2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pre-footer-title {
+    margin-top: 60px;
+}
+
+.pre-footer-button {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.pre-footer-button a {
+    color: #005fe6;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 32px;
+    border-radius: 5px;
+    transition: 0.5s
+}
+
+.pre-footer-button a:hover {
+    background-color: hsla(0,0%,100%,.8);
+    text-decoration: none;
+    color: #0069ff;
+}
+/* /prefooter */
