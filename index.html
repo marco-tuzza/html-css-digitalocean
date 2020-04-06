@@ -10,43 +10,45 @@
     </head>
     <body>
         <header>
-            <div class="container-fluid container-header-top">
-                <div id="header-top">
-                    <div class="row">
-                        <div class="header-top-left col-lg-6 col-xs-12">
-                            <span id="new">NEW</span>
-                            <a href="#" class="hidden-xs">Working on something related to COVID-19? DigitalOcean would like to help &#155;</a>
-                            <a href="#" class="hidden-sm hidden-md hidden-lg">Working on something related to COVID-19?...</a>
-                        </div>
-                        <div class="header-top-right text-right">
-                            <ul class="list-inline hidden-xs hidden-sm hidden-md">
-                                <li><a href="#">Docs</a></li>
-                                <li><a href="#">Get Support</a></li>
-                                <li><a href="#">Sales</a></li>
-                                <li><a href="#">Sign in</a></li>
-                            </ul>
+            <div class="navbar-fixed-top">
+                <div class="container-fluid container-header-top">
+                    <div id="header-top">
+                        <div class="row">
+                            <div class="header-top-left col-lg-6 col-xs-12">
+                                <span id="new">NEW</span>
+                                <a href="#" class="hidden-xs">Working on something related to COVID-19? DigitalOcean would like to help &#155;</a>
+                                <a href="#" class="hidden-sm hidden-md hidden-lg">Working on something related to COVID-19?...</a>
+                            </div>
+                            <div class="header-top-right text-right">
+                                <ul class="list-inline hidden-xs hidden-sm hidden-md">
+                                    <li><a href="#">Docs</a></li>
+                                    <li><a href="#">Get Support</a></li>
+                                    <li><a href="#">Sales</a></li>
+                                    <li><a href="#">Sign in</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="container-fluid container-footer-bottom hidden-xs hidden-sm hidden-md hidden-sm">
-                <div id="header-bottom">
-                    <div class="row">
-                        <div class="logo-blue col-lg-2">
-                            <img src="img/logo-digitalocean.svg" alt="">
-                        </div>
-                        <div class="nav-header-bottom col-lg-8">
-                            <ul class="list-inline">
-                                <li><a href="#" class="nav-dropdown">Products</a></li>
-                                <li><a href="#">Marketplace</a></li>
-                                <li><a href="#">Customers</a></li>
-                                <li><a href="#">Partners</a></li>
-                                <li><a href="#" class="nav-dropdown">Community</a></li>
-                                <li><a href="#">Pricing</a></li>
-                            </ul>
-                        </div>
-                        <div class="sign-up text-right">
-                            <span><a href="#">Sign Up</a></span>
+                <div class="container-fluid container-footer-bottom hidden-xs hidden-sm hidden-md hidden-sm">
+                    <div id="header-bottom">
+                        <div class="row">
+                            <div class="logo-blue col-lg-2">
+                                <img src="img/logo-digitalocean.svg" alt="">
+                            </div>
+                            <div class="nav-header-bottom col-lg-8">
+                                <ul class="list-inline">
+                                    <li><a href="#" class="nav-dropdown">Products</a></li>
+                                    <li><a href="#">Marketplace</a></li>
+                                    <li><a href="#">Customers</a></li>
+                                    <li><a href="#">Partners</a></li>
+                                    <li><a href="#" class="nav-dropdown">Community</a></li>
+                                    <li><a href="#">Pricing</a></li>
+                                </ul>
+                            </div>
+                            <div class="sign-up text-right">
+                                <span><a href="#">Sign Up</a></span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -72,7 +74,7 @@
                       </div>
                     </nav>
                     <div class="container">
-                        <div class="col-lg-6">
+                        <div class="jumbotron-left col-sm-6">
                             <div class="row row-jumbotron-left">
                                 <h1>Welcome to the developer cloud</h1>
                             </div>
@@ -80,7 +82,7 @@
                                 <p>We make it simple to launch in the cloud and scale up as you grow - with an intuitive control panel, predictable pricing, team accounts, and more.</p>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-sm-6">
                             <div class="container">
                                 <div class="form-box">
                                     <div class="row text-center">
@@ -96,19 +98,21 @@
                                       <div class="form-group">
                                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Create a password">
                                       </div>
-                                      <button type="submit" class="btn btn-default">Create your account</button>
+                                      <button type="submit" class="btn btn-default btn-account">Create your account</button>
                                     </form>
                                     <div class="divider-form">
                                         <div class="row text-center divider">
                                             <p>or sign up with</p>
                                         </div>
                                     </div>
-                                    <div class="form-buttons clearfix col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="form-button-left col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
-                                            <a class="google-button"href="#"><img class="google-logo" src="img/google-logo.png" alt="">Google</a>
-                                        </div>
-                                        <div class="form-button-right col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
-                                            <a class="github-button" href="#"><i class="fab fa-github"></i> GitHub</a>
+                                    <div class="form-buttons col-xs-12">
+                                        <div class="row">
+                                            <button class="btn btn-default btn-sign form-button-left col-sm-5 col-xs-12 text-center">
+                                                <a class="google-button"href="#"><img class="google-logo" src="img/google-logo.png" alt="">Google</a>
+                                            </button>
+                                            <button class="btn btn-default btn-sign form-button-right col-sm-5 col-sm-offset-2 col-xs-12 text-center">
+                                                <a class="github-button" href="#"><i class="fab fa-github"></i> GitHub</a>
+                                            </button>
                                         </div>
                                     </div>
                                     <div class="terms text-center">
@@ -317,7 +321,7 @@
                                     <p>Amsterdam, Netherlands</p>
                                 </div>
                                 <div class="table-test col-xs-3">
-                                    <a href="#">Test speed &#62;</a>
+                                    <a href="#">Test speed <span class="hidden-xs hidden-sm">&#62;</span></a>
                                 </div>
                             </div>
                             <div class="row col-xs-12">
@@ -328,7 +332,7 @@
                                     <p>Amsterdam, Netherlands</p>
                                 </div>
                                 <div class="table-test col-xs-3">
-                                    <a href="#">Test speed &#62;</a>
+                                    <a href="#">Test speed <span class="hidden-xs hidden-sm">&#62;</span></a>
                                 </div>
                             </div>
                             <div class="row col-xs-12">
@@ -339,7 +343,7 @@
                                     <p>Bangalore, India</p>
                                 </div>
                                 <div class="table-test col-xs-3">
-                                    <a href="#">Test speed &#62;</a>
+                                    <a href="#">Test speed <span class="hidden-xs hidden-sm">&#62;</span></a>
                                 </div>
                             </div>
                             <div class="row col-xs-12">
@@ -350,7 +354,7 @@
                                     <p>Frankfurt, Germany</p>
                                 </div>
                                 <div class="table-test col-xs-3">
-                                    <a href="#">Test speed &#62;</a>
+                                    <a href="#">Test speed <span class="hidden-xs hidden-sm">&#62;</span></a>
                                 </div>
                             </div>
                             <div class="row col-xs-12">
@@ -361,7 +365,7 @@
                                     <p>London, UK</p>
                                 </div>
                                 <div class="table-test col-xs-3">
-                                    <a href="#">Test speed &#62;</a>
+                                    <a href="#">Test speed <span class="hidden-xs hidden-sm">&#62;</span></a>
                                 </div>
                             </div>
                             <div class="row last-row col-xs-12">
@@ -372,7 +376,7 @@
                                     <p>New York, USA</p>
                                 </div>
                                 <div class="table-test col-xs-3">
-                                    <a href="#">Test speed &#62;</a>
+                                    <a href="#">Test speed <span class="hidden-xs hidden-sm">&#62;</span></a>
                                 </div>
                             </div>
                         </div>
@@ -385,7 +389,7 @@
                                     <p>New York, USA</p>
                                 </div>
                                 <div class="table-test col-xs-3">
-                                    <a href="#">Test speed &#62;</a>
+                                    <a href="#">Test speed <span class="hidden-xs hidden-sm">&#62;</span></a>
                                 </div>
                             </div>
                             <div class="row col-xs-12">
@@ -396,7 +400,7 @@
                                     <p>New York, USA</p>
                                 </div>
                                 <div class="table-test col-xs-3">
-                                    <a href="#">Test speed &#62;</a>
+                                    <a href="#">Test speed <span class="hidden-xs hidden-sm">&#62;</span></a>
                                 </div>
                             </div>
                             <div class="row col-xs-12">
@@ -407,7 +411,7 @@
                                     <p>San Francisco, USA</p>
                                 </div>
                                 <div class="table-test col-xs-3">
-                                    <a href="#">Test speed &#62;</a>
+                                    <a href="#">Test speed <span class="hidden-xs hidden-sm">&#62;</span></a>
                                 </div>
                             </div>
                             <div class="row col-xs-12">
@@ -418,7 +422,7 @@
                                     <p>San Francisco, USA</p>
                                 </div>
                                 <div class="table-test col-xs-3">
-                                    <a href="#">Test speed &#62;</a>
+                                    <a href="#">Test speed <span class="hidden-xs hidden-sm">&#62;</span></a>
                                 </div>
                             </div>
                             <div class="row col-xs-12">
@@ -429,7 +433,7 @@
                                     <p>Singapore</p>
                                 </div>
                                 <div class="table-test col-xs-3">
-                                    <a href="#">Test speed &#62;</a>
+                                    <a href="#">Test speed <span class="hidden-xs hidden-sm">&#62;</span></a>
                                 </div>
                             </div>
                             <div class="row last-row col-xs-12">
@@ -440,7 +444,7 @@
                                     <p>Toronto, Canada</p>
                                 </div>
                                 <div class="table-test col-xs-3">
-                                    <a href="#">Test speed &#62;</a>
+                                    <a href="#">Test speed <span class="hidden-xs hidden-sm">&#62;</span></a>
                                 </div>
                             </div>
                         </div>
@@ -506,5 +510,91 @@
                 </div>
             </section>
         </main>
+        <footer>
+            <div class="container footer-link-container">
+                <div class="col-xs-6 col-sm-2 col-sm-offset-1">
+                    <h3>Company</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Leadership</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Referral Program</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Legal &#38; Security</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <h3>Products</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Products Overview</a></li>
+                        <li><a href="#">Droplets</a></li>
+                        <li><a href="#">Kubernetes</a></li>
+                        <li><a href="#">Managed Databases</a></li>
+                        <li><a href="#">Spaces</a></li>
+                        <li><a href="#">Marketplace</a></li>
+                        <li><a href="#">Load Balancers</a></li>
+                        <li><a href="#">Block Storage</a></li>
+                        <li><a href="#">Tools & Integrations</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Release Notes</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <h3>Community</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Meetups</a></li>
+                        <li><a href="#">Q&#38;A</a></li>
+                        <li><a href="#">Write for DOnations</a></li>
+                        <li><a href="#">Droplets for Demos</a></li>
+                        <li><a href="#">Hatch Startup Program</a></li>
+                        <li><a href="#">Shop Swag</a></li>
+                        <li><a href="#">Research Program</a></li>
+                        <li><a href="#">Currents Research</a></li>
+                        <li><a href="#">Open Source</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <h3>Solutions</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Web &#38; Mobile Apps</a></li>
+                        <li><a href="#">Website Hosting</a></li>
+                        <li><a href="#">Big Data</a></li>
+                        <li><a href="#">Managed Services</a></li>
+                        <li><a href="#">Business Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <h3>Contact</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Get Support</a></li>
+                        <li><a href="#">Trouble Signing In?</a></li>
+                        <li><a href="#">Sales</a></li>
+                        <li><a href="#">Report Abuse</a></li>
+                        <li><a href="#">System Status</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container footer-bottom">
+                <div class="row">
+                    <img class="col-xs-2" src="img/logo-footer.png" alt="">
+                    <p class="col-xs-10">&#169; 2020 DigitalOcean, LLC. All rights reserved.</p>
+                    <ul class="list-unstyled list-inline text-right col-xs-12">
+                        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fab fa-dev"></i></a></li>
+                        <li><a href="#"><i class="far fa-square"></i></a></li>
+                        <li><a href="#"><i class="fab fa-jedi-order"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

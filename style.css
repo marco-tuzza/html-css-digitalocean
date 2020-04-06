@@ -21,6 +21,10 @@
 }
 
 /* header */
+.navbar-fixed-top {
+    background-color: white;
+}
+
 #header-top {
     padding: 10px 20px 5px 20px;
     font-size: 12px;
@@ -119,6 +123,21 @@
     margin-bottom: 0px;
 }
 
+@media screen and (max-width: 767px) {
+    .jumbotron {
+        background-image: none;
+        background-color:rgb(2, 72, 255);
+        padding-top: 60px;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .jumbotron {
+        padding-top: 180px;
+    }
+}
+
 .navbar-brand {
     padding: 0px;
     padding-left: 35px;
@@ -153,6 +172,10 @@
     width: 200px;
 }
 
+.jumbotron-left {
+    margin-top: 120px;
+}
+
 .row-jumbotron-left h1 {
     color: white;
     font-weight: bold;
@@ -167,6 +190,8 @@
     background-color: white;
     padding: 32px;
     border-radius: 3px;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 .form-box .row h2 {
@@ -191,7 +216,32 @@
     border-color: #0069ff;
 }
 
-.btn {
+.btn-sign {
+    font-size: 18px;
+    font-weight: bold;
+    background: #f2f8ff;
+    border: 1px solid rgba(0,105,255,.2);
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.btn-sign a {
+    color: #031b4e
+}
+
+.btn-sign:hover {
+    background-color: #d5e4f7;
+    text-decoration: none;
+    border: 1px solid rgba(0,105,255,.2);
+}
+
+.btn-sign a:hover {
+    text-decoration: none;
+}
+
+.btn-account {
     background-color: #0069ff;
     border: none;
     color: white;
@@ -200,7 +250,7 @@
     transition: 0.5s;
 }
 
-.btn:hover {
+.btn-account:hover {
     background-color: #1633ff;
     border: none;
     color: white;
@@ -246,25 +296,21 @@
     color: grey;
 }
 
+@media screen and (max-width: 767px) {
+    .form-button-left {
+        margin-bottom: 30px;
+    }
+
+}
+
 .github-button,
 .google-button {
-    font-size: 18px;
-    font-weight: bold;
-    color: #031b4e;
-    background: #f2f8ff;
-    border: 1px solid rgba(0,105,255,.2);
-    border-radius: 3px;
-    text-decoration: none;
-    padding: 10px 45px;
-    transition: 0.5s;
-    width: 50%;
-    box-sizing: border-box;
+
 }
 
 .github-button:hover,
 .google-button:hover {
-    background-color: #d5e4f7;
-    text-decoration: none;
+
 }
 
 .form-buttons {
@@ -646,3 +692,48 @@
     color: #0069ff;
 }
 /* /prefooter */
+/* footer */
+footer {
+    background-color: #010e28;
+}
+
+.footer-link-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgb(52, 62, 83);
+}
+
+footer h3 {
+    color: white;
+    font-size: 14px;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 28px;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+
+.footer-bottom img {
+    max-width: 100px;
+}
+
+.footer-bottom p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 70px;
+}
+
+.footer-bottom i {
+    font-size: 18px;
+    line-height: 70px;
+}
