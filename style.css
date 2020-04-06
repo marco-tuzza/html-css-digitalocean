@@ -324,7 +324,7 @@
 .terms p {
     font-size: 13px;
 }
-
+/* /jumbotron */
 /* brands-section */
 .brands-section {
     padding-top: 65px;
@@ -737,3 +737,4 @@ footer a:hover {
     font-size: 18px;
     line-height: 70px;
 }
+/* /footer */
